@@ -2,7 +2,7 @@ if exists('b:current_syntax')
   finish
 endif
 
-runtime! syntax/jsx.vim
+runtime syntax/jsx_pretty.vim
 
 syn keyword snapKeywords exports
 hi def link snapKeywords Keyword
